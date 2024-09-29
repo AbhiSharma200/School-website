@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+#navbar1 {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar1 a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar1 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar1 a.active {
+    background-color: #290ddf;
+    color: white;
+}
+/* Sticky nav bar - End */
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%, -50%);
+}
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.slide-image {
+    width: 500px;
+    height: 500px
+}
+/********/
+/*image gallery for the About us*/
+
+div.gallery {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gallery-img {
+    height: 300px;
+    width: 300px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+/*    filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));*/
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+
+}
+
+.image-gallery-description{
+    padding: 15px;
+    text-align: center;
+}
+
+/*div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}*/
+/*
+* {
+    box-sizing: border-box;
+}*/
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 20.99999%;
+    border-radius: 10px;
+}
+/*
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}*/
+/*
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+/*End: Image gallery - About us */
+
+/*Academics CSS Start*/
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #290ddf;
+    color: white;
+}
+.break {
+    background-color: #290ddf;
+    color: #ffffff;
+}
+
+/*Academics CSS ends*/
+
+/*Annoucement CSS start*/
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/*Annoucement css ends*/
+
+/* *** Contact us -- start */
+
+.contact_us {
+    display: flex;
+    background: #f3f5f7;
+    padding-top: 30px;
+}
+.contact_details {
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #1D252D;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+}
+.school_name {
+    font-size: 22px;
+}
+.addr_label {
+    font-weight: bolder;
+}
+.modal_heading {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.modal_item{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.modal_item_label{width: 15%;}
+.modal_item_value{width: 80%;}
+.input_subscribe_modal{
+    width: 75%;
+    padding: 3px;
+}
+.modal_footer {
+    display:flex;
+    flex-direction:row-reverse;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.newsletter_anchor {
+    cursor: pointer;
+    color: blue;
+}
